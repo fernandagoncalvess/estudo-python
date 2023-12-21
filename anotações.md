@@ -2,11 +2,8 @@
 
 ## Menu
 
-- [Orientação a Objeto](#orientação-a-objeto)
-  - [Significados](#significados)
-  - [Códigos](#códigos)
-  - [Vetor de Objetos](#vetor-de-objetos)
-  - [ArrayList](#arraylist)
+- [Strings](#strings)
+
 <br>
 
 
@@ -23,6 +20,12 @@
 - dir(): retorna uma lista de atributos válidos para o objeto, ex: dir(100) traz todos os métodos q tem dentro da classe int.
 - help(): mostra os métodos q da pra utilizar na classe, um google, informação da implementação.
 
+### Boas práticas
+- O padrão de nomes deve ser snake case (usar _ como espaço, exemplo: preco_total);
+- nome de constantes todo em maiúsculo.
+
+<br>
+
 | Tipos | |
 |-------|-|
 |numérico| int, float, complex |
@@ -32,20 +35,30 @@
 | booleano | bool(true, false) |
 | binário | byter, bytearray, memoryview |
 
-## Declaração de variáveis
+# Declaração de variáveis e constantes
 
 ```python
-    print('Olá',6)
-    #Olá 6
-    print('8'+'9')
-    #89
+   
+    AMOUNT = 30.2
     nome = 'Fernanda'
     idade = 21
     peso = 50.5
     print(nome, idade, peso)
     #Fernanda 21 50.5
 
+    print('Olá',6)
+    #Olá 6
+    print('8'+'9')
+    #89
+
     numero = input('Digite o primeiro número: ')
     numero = int(numero) # convertendo para um número inteiro
+
+    print(f"meu nome é {nome} e eu tenho {idade} anos de idade")
+
 ```
 
+# Strings
+```python
+
+```
