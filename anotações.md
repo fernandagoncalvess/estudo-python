@@ -46,11 +46,6 @@
     print(nome, idade, peso)
     #Fernanda 21 50.5
 
-    print('Olá',6)
-    #Olá 6
-    print('8'+'9')
-    #89
-
     numero = input('Digite o primeiro número: ')
     numero = int(numero) # convertendo para um número inteiro
 
@@ -60,5 +55,8 @@
 
 # Strings
 ```python
-
+    print('Olá',6)
+    #Olá 6
+    print('8'+'9')
+    #89
 ```
