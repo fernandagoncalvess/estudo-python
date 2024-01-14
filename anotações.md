@@ -40,11 +40,11 @@
 ```python
    
     AMOUNT = 30.2
-    nome = 'Fernanda'
-    idade = 21
+    nome = 'Maria'
+    idade = 50
     peso = 50.5
     print(nome, idade, peso)
-    #Fernanda 21 50.5
+    #Maria 50 50.5
 
     numero = input('Digite o primeiro número: ')
     numero = int(numero) # convertendo para um número inteiro
